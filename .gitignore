@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Gurobi: never commit a licence file; logs are noise
+gurobi.lic
+*.lic
+gurobi.log
+*.lp
+*.mps
+*.sol
+*.ilp
+
+# Generated results (figures, tables). Re-create them by running the scripts.
+output/*
+!output/.gitkeep
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+# Packages allowed by the assignment, plus the solver interface
+numpy
+pandas
+scipy
+matplotlib
+gurobipy
